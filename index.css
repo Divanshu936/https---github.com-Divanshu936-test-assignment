@@ -1,0 +1,84 @@
+
+.menu-area{
+    display: flex;
+    align-items: center;
+    padding:0.2em
+}
+Ul{display: flex;}
+
+.nav{
+    list-style-type: none;
+    margin:20px;
+
+}
+
+.nav:hover{
+    background-color: orange;
+    padding: 15px;
+}
+.fas{
+    color:orange
+}
+.banner{
+    list-style: none;
+}
+.banner:hover{
+    color:peru
+}
+.banneru{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("images/banner.jpeg");
+    opacity:04;
+    color:pink;
+    margin: 20px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    
+}
+img{
+    width:60%
+}
+aside{
+    width:35%
+}
+.pdf{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: orange;
+    margin:1em
+}
+#download{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    
+}
+.fa-download,.fa-file-pdf{
+    color: palegreen;
+    margin: 0.2em;
+}
+input{
+    padding: 10px;
+    margin:0.2rem
+
+}
+h4{
+    color: grey;
+}
+.form{
+    display: flex;
+    width: 60vw;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+button{
+    padding: 15px;
+    background-color: orange;
+}
